@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 let isConnected = false;
 
 export const connectDB = async () => {
-  const uri = 'mongodb://localhost:27017/trackify'
+  const uri = 'mongodb+srv://umarsdq06:trackify@trackify.uhn5nvk.mongodb.net/?retryWrites=true&w=majority&appName=trackify'
 
   if (!uri) {
     process.exit(1);

@@ -1,5 +1,4 @@
 import Transaction from "../models/transaction.js";
-// Add a new transaction
 export const addTransaction = async (req, res) => {
   const { userId, amount, type, category, description, date } = req.body;
 
