@@ -9,6 +9,7 @@ const RootLayout = () => {
       <main>
         <Outlet />
       </main>
+
     </div>
   );
 };

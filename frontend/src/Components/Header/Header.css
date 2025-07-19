@@ -1,5 +1,4 @@
-.h1 {
-}
+
 
 .header{
     position: fixed;
@@ -12,4 +11,12 @@
     display: flex;
     gap: 20px;
     justify-content: right;
+    
+}
+
+.buttons{
+    display: flex;
+    gap: 15px;
+    margin-right: 20px;
+    padding: 10px;
 }
