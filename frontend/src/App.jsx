@@ -7,6 +7,8 @@ import RootLayout from './Components/RootLayout/RootLayout.jsx'
 import Settings from './Components/Settings/Settings.jsx'
 import Help from './Components/Help/Help.jsx'
 import MainPage from './Components/MainPage/MainPage.jsx'
+import SignUpForm from './Components/SignUpForm/SignUpForm.jsx'
+import LoginForm from './Components/LoginForm/LoginForm.jsx'
 function App() {
   const [count, setCount] = useState(0)
   const router = createBrowserRouter([{
@@ -18,8 +20,8 @@ function App() {
       { path: "/profile", element: <Profile /> },
       { path: "/settings", element: <Settings /> },
       { path: "/help", element: <Help /> },
-      //{ path: "/login", element: <LoginForm /> },
-      //{ path: "/signup", element: <SignUpForm /> } 
+      { path: "/login", element: <LoginForm /> },
+      { path: "/signup", element: <SignUpForm /> } 
     ]
   }
     
